@@ -4,13 +4,19 @@ import { BrowserModule  } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
+import { LoginPageComponent } from './login-page/login-page.component';
 
 const routes: Routes =[
   {
     path: '',
+    component: LoginPageComponent
+  },
+  {
+    path: 'dashboard',
     redirectTo: 'dashboard',
     pathMatch: 'full',
-  }, {
+  },
+  {
     path: '',
     component: AdminLayoutComponent,
     children: [{
