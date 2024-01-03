@@ -1,0 +1,12 @@
+.submit
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+section
+{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #DCF2F6;
+}

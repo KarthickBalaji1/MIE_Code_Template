@@ -5,11 +5,17 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { LoginPageComponent } from './login-page/login-page.component';
+import { SignupComponent } from './signup/signup.component';
+
 
 const routes: Routes =[
   {
     path: '',
     component: LoginPageComponent
+  },
+  {
+    path:'signup',
+    component:SignupComponent
   },
   {
     path: 'dashboard',
